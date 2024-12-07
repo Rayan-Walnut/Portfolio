@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan El Manssouri - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#" class="logo-link">W</a>
+            </div>
+            <div class="menu">
+                <div class="menu-item">
+                    <a href="#" class="menu-link">À propos</a>
+                </div>
+                <div class="menu-item dropdown">
+                    <a href="#" class="menu-link">Services</a>
+                    <div class="dropdown-content">
+                        <a href="#">Web Development</a>
+                        <a href="#">Mobile Development</a>
+                        <a href="#">Consulting</a>
+                        <a href="#">Pricing</a>
+                    </div>
+                </div>
+                <div class="menu-item dropdown">
+                    <a href="#" class="menu-link">Portfolio</a>
+                    <div class="dropdown-content">
+                        <a href="#">Sites Web</a>
+                        <a href="#">Applications</a>
+                        <a href="#">Design UI/UX</a>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a href="#" class="menu-link">Contact</a>
+                </div>
+            </div>
+            <div class="mobile-trigger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="about">
+            <h1>Rayan El Manssouri</h1>
+            <p>Développeur passionné spécialisé dans le développement web et les technologies modernes</p>
+            
+            <div class="cv-container">
+                <div class="cv-card fr">
+                    <div class="cv-content">
+                        <div class="cv-icon">
+                            <i class="fas fa-file-alt"></i>
+                            <img src="https://flagcdn.com/20x15/fr.png" alt="French" class="flag-icon">
+                        </div>
+                        <h3>CV Français</h3>
+                        <p>Version française de mon CV</p>
+                    </div>
+                    <div class="cv-actions">
+                        <a href="cv-fr.pdf" class="btn cv-btn" target="_blank">
+                            <i class="fas fa-download"></i> Télécharger
+                        </a>
+                        <a href="cv-fr.pdf" class="btn cv-btn view" target="_blank">
+                            <i class="fas fa-eye"></i> Visualiser
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="cv-card en">
+                    <div class="cv-content">
+                        <div class="cv-icon">
+                            <i class="fas fa-file-alt"></i>
+                            <img src="https://flagcdn.com/20x15/gb.png" alt="English" class="flag-icon">
+                        </div>
+                        <h3>CV English</h3>
+                        <p>English version of my resume</p>
+                    </div>
+                    <div class="cv-actions">
+                        <a href="cv-en.pdf" class="btn cv-btn" target="_blank">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                        <a href="cv-en.pdf" class="btn cv-btn view" target="_blank">
+                            <i class="fas fa-eye"></i> View
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <a href="#projects" class="btn btn-primary projects-btn">Voir mes projets</a>
+        </section>
+
+        
+    <section class="projects" id="projects">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-grid">
+            <!-- Chat Project -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-comments project-icon"></i>
+                    <h3 class="project-title">chat</h3>
+                    <span class="project-visibility">Private</span>
+                </div>
+                <p class="project-description">Chat.js project</p>
+                <div class="project-tags">
+                    <span class="project-tag">chat</span>
+                    <span class="project-tag">js</span>
+                    <span class="project-tag">expresse</span>
+                    <span class="project-tag">instaner</span>
+                </div>
+            </div>
+
+            <!-- Nebula Project -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-code project-icon"></i>
+                    <h3 class="project-title">Nebula</h3>
+                    <span class="project-visibility">Private</span>
+                </div>
+                <p class="project-description">Un Web Editor pour Photon</p>
+                <div class="project-tags">
+                    <span class="project-tag">editor</span>
+                    <span class="project-tag">web</span>
+                    <span class="project-tag">js</span>
+                    <span class="project-tag">code</span>
+                </div>
+            </div>
+
+            <!-- Nebula Editor Project -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-edit project-icon"></i>
+                    <h3 class="project-title">nebula-editor</h3>
+                    <span class="project-visibility">Private</span>
+                </div>
+                <p class="project-description">Un Web Editor pour Photon</p>
+                <div class="project-tags">
+                    <span class="project-tag">typescript</span>
+                    <span class="project-tag">npm</span>
+                    <span class="project-tag">web</span>
+                    <span class="project-tag">ts</span>
+                    <span class="project-tag">photon</span>
+                    <span class="project-tag">nebula</span>
+                </div>
+            </div>
+
+            <!-- Mercurev2 Project -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-rocket project-icon"></i>
+                    <h3 class="project-title">mercurev2</h3>
+                    <span class="project-visibility">Public</span>
+                </div>
+                <p class="project-description">Application TypeScript</p>
+                <div class="project-tags">
+                    <span class="project-tag">typescript</span>
+                </div>
+            </div>
+
+            <!-- QuickUI Project -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-window-maximize project-icon"></i>
+                    <h3 class="project-title">QuickUI</h3>
+                    <span class="project-visibility">Private</span>
+                </div>
+                <p class="project-description">Module Python pour des interfaces utilisateurs performantes</p>
+                <div class="project-tags">
+                    <span class="project-tag">python</span>
+                    <span class="project-tag">ui</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-intro">Intéressé par une collaboration ? N'hésitez pas à me contacter !</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>gith945@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Nîmes, France</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" required 
+                           placeholder="Votre nom">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required 
+                           placeholder="votre.email@exemple.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" required 
+                           placeholder="Sujet de votre message">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required 
+                              placeholder="Votre message ici..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary submit-btn">
+                    <i class="fas fa-paper-plane"></i> Envoyer
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rayan El Manssouri. Tous droits réservés.</p>
+        <p>Développé avec passion</p>
+    </footer>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile menu toggle
+            const mobileButton = document.querySelector('.mobile-trigger');
+            const menu = document.querySelector('.menu');
+
+            mobileButton.addEventListener('click', () => {
+                menu.classList.toggle('active');
+                mobileButton.querySelector('i').classList.toggle('fa-bars');
+                mobileButton.querySelector('i').classList.toggle('fa-times');
+            });
+        });
+    </script>
+</body>
+</html>
